@@ -1,5 +1,23 @@
 .App {
   text-align: center;
+  background: linear-gradient(rgb(167 165 178), rgb(49 5 91));
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #fc6454 #e6e9ed;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #e6e9ed;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #fc6454;
 }
 
 .App-logo {
@@ -35,4 +53,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Portfolio 2020 styles */
+.navB {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s, height 4s;
+}
+.navB:hover {
+  width: 300px;
+  height: 300px;
 }
